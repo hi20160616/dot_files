@@ -1,9 +1,9 @@
 configuration {
-	modi: "drun,window,run";
+	modi: "window,run,ssh,combi";
 /*	width: 50;*/
 /*	lines: 15;*/
 /*	columns: 1;*/
-	font: "Inconsolata 14";
+	font: "FiraCode Nerd Font 14";
 /*	bw: 1;*/
 /*	location: 0;*/
 /*	padding: 5;*/
@@ -36,7 +36,7 @@ configuration {
 /*	auto-select: false;*/
 /*	parse-hosts: false;*/
 /*	parse-known-hosts: true;*/
-/*	combi-modi: "window,run";*/
+	combi-modi: "window,run";
 /*	matching: "normal";*/
 /*	tokenize: true;*/
 /*	m: "-5";*/
@@ -68,12 +68,12 @@ configuration {
 /*	drun-reload-desktop-cache: false;*/
 /*	normalize-match: false;*/
 /*	pid: "/run/user/1000/rofi.pid";*/
-/*	display-window: ;*/
+	display-window: "windows";
 /*	display-windowcd: ;*/
 /*	display-run: ;*/
 /*	display-ssh: ;*/
 	display-drun: "App";
-/*	display-combi: ;*/
+	display-combi: "Combi";
 /*	display-keys: ;*/
 /*	display-file-browser: ;*/
 /*	kb-primary-paste: "Control+V,Shift+Insert";*/
@@ -149,5 +149,6 @@ configuration {
 /*	me-accept-entry: "MouseDPrimary";*/
 /*	me-accept-custom: "Control+MouseDPrimary";*/
 }
-/* @theme "gruvbox-dark-soft" */
-@theme "~/.config/rofi/material.rasi"
+
+@theme "gruvbox-dark-soft"
+/* @theme "~/.config/rofi/material.rasi" */

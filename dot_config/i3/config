@@ -197,9 +197,10 @@ exec --no-startup-id dunst # notify on desktop
 exec --no-startup-id copyq # clipboard
 exec --no-startup-id polybar
 exec --no-startup-id xrandr -s 1400x900
- exec --no-startup-id fcitx5 -d
+exec --no-startup-id fcitx5 -d
 bindsym $mod+Shift+s exec --no-startup-id flameshot gui
 bindsym $mod+p exec --no-startup-id polybar-msg cmd toggle
 bindsym $mod+Shift+Ctrl+9 exec --no-startup-id xrandr -s 1920x1080
-bindsym $mod+Shift+Ctrl+0 exec --no-startup-id xrandr -s 3440x1440_60.00
+bindsym $mod+Shift+Ctrl+0 exec --no-startup-id "$HOME/Git/dot_files/xrandr3440x1440_60.00.sh"
 # TODO: bindsym $mod+q exec --no-startup-id "$HOME/.config/rofi/powermenu.sh" #invoke rofi powermenu
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh # 开启 polybar

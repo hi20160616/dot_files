@@ -8,8 +8,9 @@ ln -s ~/Git/dot_files/dot_config/i3/config ~/.config/i3/config
 mkdir -p ~/.config/alacritty
 mv ~/.config/alacritty/alacritty.yml ~/.config/alacritty/alacritty_original.yml
 ln -s ~/Git/dot_files/dot_config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
-mkdir ~/.config/polybar
-ln -s ~/Git/dot_files/dot_config/polybar/config ~/.config/polybar/config
+<!-- mkdir ~/.config/polybar -->
+<!-- ln -s ~/Git/dot_files/dot_config/polybar/config ~/.config/polybar/config -->
+ln -s ~/Git/dot_files/dot_config/polybar ~/.config/polybar
 mkdir ~/.config/dunst
 ln -s ~/Git/dot_files/dot_config/dunst/dunstrc ~/.config/dunst/dunstrc
 ln -s ~/Git/dot_files/dot_config/rofi ~/.config/rofi

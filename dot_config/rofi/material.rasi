@@ -21,22 +21,23 @@
     base0A: #FFCB6B;
     base0B: #C3E88D;
     base0C: #89DDFF;
-    base0D: #82AAFF;
+    base0D: #009AE6;
     base0E: #C792EA;
     base0F: #FF5370;
+    base10: #121212ef;
 
-    /*base0D: #00BCD4;*/
 
     spacing: 0;
     background-color: transparent;
 
     font: "Noto Sans Mono 14";
+    color: @base07;
 }
 
 window {
     transparency: "real";
-    /*fullscreen: true;*/
-    background-color: #263238CC; /*base00 + CC (80% opacity)*/
+    /* fullscreen: true; */
+    background-color: @base10; /*base00 + CC (80% opacity)*/
 }
 
 mainbox {

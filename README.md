@@ -14,4 +14,5 @@ ln -s ~/Git/dot_files/dot_config/polybar ~/.config/polybar
 mkdir ~/.config/dunst
 ln -s ~/Git/dot_files/dot_config/dunst/dunstrc ~/.config/dunst/dunstrc
 ln -s ~/Git/dot_files/dot_config/rofi ~/.config/rofi
+ln -s ~/Git/dot_files/lf ~/.config/lf
 ```

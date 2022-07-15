@@ -147,6 +147,8 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
+# i3lock
+bindsym $mod+Ctrl+Shift+l exec i3lock -i $HOME/Pictures/Wallpapers/2800342.png
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -193,7 +195,7 @@ new_window 1pixel
 #gaps outer 4
 exec --no-startup-id picom --experimental-backends -b
 exec_always --no-startup-id numlockx on
-# exec_always feh --bg-fill --randomize "$HOME/Pictures/Wallpapers/"
+exec_always feh --bg-fill --randomize "$HOME/Pictures/Wallpapers/"
 exec --no-startup-id dunst # notify on desktop
 exec --no-startup-id copyq # clipboard
 exec --no-startup-id polybar

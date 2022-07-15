@@ -113,7 +113,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias sudo="sudo "
 alias vim="nvim"
-alias lock1="i3lock -i ~/Pictures/Wallpapers/2799889.jpg"
+alias lock1="i3lock -i ~/Pictures/Wallpapers/2799889.png"
 alias lock1="~/Git/dot_files/dot_config/i3lock/lock.sh"
 export LC_ALL=en_US.UTF-8  
 export LANG=en_US.UTF-8

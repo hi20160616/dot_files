@@ -1,4 +1,17 @@
 {
-	"explorer.icon.enableNerdfont": true,
-	"colors.filetypes": ["*"]
+    "languageserver": {
+	"golang": {
+	    "command": "gopls",
+	    "rootPatterns": ["go.work", "go.mod", ".vim/", ".git/", ".hg/"],
+	    "filetypes": ["go"],
+	    "initializationOptions": {
+		"usePlaceholders": true
+	    }
+	}
+    },
+    "explorer.icon.enableNerdfont": true,
+    "colors.filetypes": [
+      "*"
+    ],
+    "clangd.path": "~/Git/dot_files/dot_config/coc/extensions/coc-clangd-data/install/14.0.3/clangd_14.0.3/bin/clangd"
 }

@@ -5,6 +5,11 @@ enchant/
 fcitx/
 sogoupinyin/
 xfce4/
-nvim/init.vim
 pulse/
+dlv/
+dunst/
+gtk*/
+nemo/
+mimeapps.list
+nvim/init.vim
 konsolerc

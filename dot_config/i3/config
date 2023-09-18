@@ -196,8 +196,8 @@ bindsym $mod+r mode "resize"
 
 for_window [class="^.*"] border pixel 2
 new_window 1pixel
-gaps inner 6
-gaps outer 4
+# gaps inner 6
+# gaps outer 4
 exec --no-startup-id picom --experimental-backends -b
 exec_always --no-startup-id numlockx on
 exec_always feh --bg-fill --randomize "$HOME/Pictures/Wallpapers/"
